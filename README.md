@@ -19,6 +19,7 @@ The function `getKarakterer` (above) returns a list of tuples given the student 
 ```
 (stadskode, kursusnavn, karakter, dato).
 ```
+The list comprises a complete roster of the student's grades.
 
 ## Requirements
 
