@@ -3,15 +3,15 @@ The python class `Stads` in `Stads.py` is a simple interface for automated (with
 ```
 from Stads import Stads
 
-userid = 'your userid'
-password = 'your password'
+userid = 'youruserid'
+password = 'yourpassword'
 studentid = 'studentid'
 
 st = Stads(userid, password, ikkeaktive=True)
 
-opslag = st.getKarakterer(studentid)
+lookup = st.getKarakterer(studentid)
 
-for stadskode, kursusnavn, karakter, dato in opslag:
+for stadskode, kursusnavn, karakter, dato in lookup:
     print(stadskode, kursusnavn, karakter, dato)
 ```
 
@@ -34,7 +34,7 @@ Updated versions of drivers for web engines in `/usr/local/bin` (below I have li
 - chromedriver: https://sites.google.com/a/chromium.org/chromedriver/ (place fex at `/usr/local/bin/chromedriver`)
 - geckodriver: https://github.com/mozilla/geckodriver/releases
 
-## Stadskoder:
+## Stadskoder
 
 Here is a sample of codes for courses (kursuskoder) in Stads:
 
