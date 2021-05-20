@@ -3,9 +3,9 @@ The python class `Stads` in `Stads.py` is a simple interface for automated (with
 ```
 from Stads import Stads
 
-userid = 'youruserid'
-password = 'yourpassword'
-studentid = 'studentid'
+userid = 'youruserid' # Your userid for Stads e.g., au0xxxxx
+password = 'yourpassword' # Your password for Stads
+studentid = 'studentid' # Studentid for lookup e.g., 2016xxxxx
 
 st = Stads(userid, password, ikkeaktive=True)
 
